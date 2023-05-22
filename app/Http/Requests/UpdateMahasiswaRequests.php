@@ -23,6 +23,7 @@ class UpdateMahasiswaRequests extends FormRequest
      */
     public function rules()
     {
+        //praktikum4
         return [
             'Nim' => 'required|min:10',
             'Nama'=> 'required',
