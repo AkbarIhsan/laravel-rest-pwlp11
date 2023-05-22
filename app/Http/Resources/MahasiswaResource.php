@@ -18,6 +18,8 @@ class MahasiswaResource extends JsonResource
             'Nim'=>$this->Nim,
             'Nama'=>$this->Nama,
             'Jurusan'=> strtoupper($this->Jurusan), //praktikum2
+            'kelas' => $this->kelas_id,
+            'NoHp' => $this->NoHp,
         ];
     }
 }

@@ -20,8 +20,6 @@ class Mahasiswa extends Model
         'Nama',
         'Jurusan',
         'NoHp',
-        'email',
-        'tanggalLahir',
         'kelas_id',
     ];
 }
